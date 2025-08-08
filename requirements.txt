@@ -1,0 +1,10 @@
+pandas>=2.3
+numpy>=2.3
+lxml>=4.9       # for parsing TCX (XML)
+gpxpy>=1.5      # for parsing GPX
+sqlite-utils>=3.35
+requests>=2.32  # for fetching weather/race data
+matplotlib>=3.10
+seaborn>=0.13   # optional, for nicer plots
+jupyterlab>=4.0
+
