@@ -3,7 +3,7 @@ import pandas as pd
 
 # convert TCX to DataFrame
 tcx_reader = TCXReader()
-tcx_data = tcx_reader.read('data_raw/San_Francisco_Marathon.tcx')
+tcx_data = tcx_reader.read('data/data_raw/San_Francisco_Marathon.tcx')
 
 rows = []
 for lap in tcx_data.laps:

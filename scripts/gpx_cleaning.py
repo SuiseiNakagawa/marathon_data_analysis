@@ -1,7 +1,7 @@
 import gpxpy
 import pandas as pd
 
-with open('data_raw/San_Francisco_Marathon.gpx', 'r') as gpx_file:
+with open('data/data_raw/San_Francisco_Marathon.gpx', 'r') as gpx_file:
     gpx = gpxpy.parse(gpx_file)
 
 # convert GPX to DataFrame
