@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3
 
-con = sqlite3.connect('marathon_data.db')
+con = sqlite3.connect('data/marathon_data.db')
 cur = con.cursor()
 
 tcx_df = pd.read_csv('data/data_clean/tcx_clean.csv')
@@ -12,4 +12,3 @@ gpx_df.to_sql('gpx_data', con, if_exists='replace', index=False)
 
 con.commit()
 con.close()
-

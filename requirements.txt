@@ -8,5 +8,7 @@ requests>=2.32  # for fetching weather/race data
 matplotlib>=3.10
 seaborn>=0.13   # optional, for nicer plots
 jupyterlab>=4.0
+ipykernel
+
 
 
