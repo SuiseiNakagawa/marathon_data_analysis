@@ -23,4 +23,3 @@ env/
 # redundant data sources
 data/data_clean/gpx_clean.csv
 data/data_raw/San_Francisco_Marathon.gpx
-scripts/gpx_cleaning.py

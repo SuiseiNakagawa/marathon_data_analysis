@@ -1,7 +1,7 @@
 from tcxreader.tcxreader import TCXReader
 import pandas as pd
 
-# convert TCX to DataFrame
+# convert my race TCX to DataFrame
 tcx_reader = TCXReader()
 tcx_data = tcx_reader.read('data/data_raw/San_Francisco_Marathon.tcx')
 
@@ -20,4 +20,5 @@ for lap in tcx_data.laps:
 tcx_df = pd.DataFrame(rows)
 
 # save to CSV
-tcx_df.to_csv('data_clean/tcx_clean.csv', index=False)
+tcx_df.to_csv('data/data_clean/tcx_clean.csv', index=False)
+print(f"Saved {len(tcx_df)} TCX points")
