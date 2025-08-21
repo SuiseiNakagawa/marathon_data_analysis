@@ -3,10 +3,11 @@ numpy>=2.3
 lxml>=4.9       # for parsing TCX (XML)
 gpxpy>=1.5      # for parsing GPX
 tcxreader>=0.2.0  # for parsing TCX files
+geopy>=2.3
 sqlite-utils>=3.35
 requests>=2.32  # for fetching weather/race data
 matplotlib>=3.10
-plotly
+plotly>=5.0
 jupyterlab>=4.0
 ipykernel
 
